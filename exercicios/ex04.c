@@ -1,3 +1,4 @@
+/*uso do for*/
 main(){
     int fahr;
     

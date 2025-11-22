@@ -2,6 +2,7 @@
 #define FIM 300
 #define INCR 20
 
+/*uso do #define*/
 main(){
     int fahr;
 

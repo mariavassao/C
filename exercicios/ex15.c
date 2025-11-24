@@ -21,8 +21,8 @@ int main(){
         {
             printf("%s", guarda); 
         }
-        return 0;
     }    
+    return 0;
 }
 
 int lelinha(char s[], int lim){
@@ -30,14 +30,14 @@ int lelinha(char s[], int lim){
     for (i = 0; i < lim -1 &&(c=getchar())!= EOF && c !='\n'; i++)
     {
         s[i]=c;
-        if (c=='\n')
+        if (c == '\n')
         {
             s[i]=c;
             ++i;
         }
-        s[i]='\0';
-        return i;
     }
+     s[i]='\0'; 
+    return i;
 }
 
 void copia(char s1[], char s2[]){
